@@ -1,0 +1,19 @@
+.top {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.block {
+	list-style-type: none;
+	width: 60px;
+}
+
+.inline {
+	display: block;
+	border: solid black 1px;
+	margin: 25px;
+}
+
+article.n-child section:nth-of-type(even) {
+	border: solid red 1px;
+}
